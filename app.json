@@ -1,0 +1,12 @@
+{
+  "name": "poke-type-trainer",
+  "displayName": "poke-type-trainer",
+  "expo": {
+    "name": "poke-type-trainer",
+    "slug": "poke-type-trainer",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
