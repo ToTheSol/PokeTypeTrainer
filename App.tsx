@@ -82,7 +82,7 @@ function writeDataToLocalJSON(listOfEndpoints) {
 
       console.log(typeMap.get('normal'));
       
-      RNFS.writeFile('/Users/matt-brooks/Personal/poke-type-trainer/Test.json', JSON.stringify(typeMap, replacer, 2), 'ascii').then(res => {
+      RNFS.writeFile('/Users/matt-brooks/Personal/poke-type-trainer/PokeData.json', JSON.stringify(typeMap, replacer, 2), 'ascii').then(res => {
         console.log('Success');
       })
     }).catch(error => {
