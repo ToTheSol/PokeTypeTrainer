@@ -29,6 +29,12 @@ public class MainActivity extends ReactActivity {
         return "main";
     }
 
+    // this is for react navigation
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(null);
+    }
+
     @Override
     protected ReactActivityDelegate createReactActivityDelegate() {
         return new ReactActivityDelegate(this, getMainComponentName()) {
