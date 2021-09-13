@@ -1,4 +1,4 @@
-package com.poketypetrainer;
+package com.tothesol.poketypetrainer;
 
 import android.os.Bundle;
 

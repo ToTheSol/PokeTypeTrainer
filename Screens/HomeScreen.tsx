@@ -9,6 +9,7 @@ const HomeScreen = () => {
   const navigation = useNavigation();
 
   const quizAction = () => {
+    console.log('quiz button was pressed')
     navigation.navigate({key: 'QuizScreen'});
   }
 

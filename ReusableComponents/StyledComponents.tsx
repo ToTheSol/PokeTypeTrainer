@@ -13,7 +13,7 @@ export const MainMenuOption = (buttonProps: IMenuButtonProps) => {
 
   return (
     <ButtonContainer
-      onPress={() => buttonProps.actionOnPress}
+      onPress={buttonProps.actionOnPress}
     >
       <ButtonText>{buttonProps.buttonText}</ButtonText>
     </ButtonContainer>
